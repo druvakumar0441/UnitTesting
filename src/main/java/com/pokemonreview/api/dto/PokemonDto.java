@@ -10,7 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PokemonDto {
-    private int id;
+   
+	private int id;
     private String name;
     private String type;
 }

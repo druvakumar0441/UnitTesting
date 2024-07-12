@@ -13,7 +13,8 @@ import java.util.List;
 @NoArgsConstructor
 public class UserEntity {
 
-    @Id
+  
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 

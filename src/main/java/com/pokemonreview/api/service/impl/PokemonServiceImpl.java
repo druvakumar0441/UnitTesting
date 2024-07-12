@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @Service
 public class PokemonServiceImpl implements PokemonService {
     private PokemonRepository pokemonRepository;
-
+    
     @Autowired
     public PokemonServiceImpl(PokemonRepository pokemonRepository) {
         this.pokemonRepository = pokemonRepository;
